@@ -62,10 +62,14 @@ A-Clean is a Django project for the management of a cleaning business.
 
 `/` 
 - main page 
-- Add new client, client search, favorite clients list
+- Enter (to go to clients, which is the main app)
+- Settings/admin (?) accordian
+  - Workers
+  - Supplies
+  - reports (to be implemented in the future)
 
 `/clients` 
-- (same as root?)
+- Add new client, client search, favorite clients list
 
 `/clients/new` 
 - new client form
@@ -85,10 +89,6 @@ A-Clean is a Django project for the management of a cleaning business.
 - generate invoice
 - add/edit job notes
 
-`/admin` (not sure about route name)
-- worker list
-- supply list
-- reports (to be implemented in the future)
 
 `/workers`
 - add/edit worker info
@@ -96,3 +96,14 @@ A-Clean is a Django project for the management of a cleaning business.
 `/supplies`
 - add/edit supplies info
 
+### Apps
+
+**main**
+
+**clients**
+
+**jobs**
+
+**workers**
+
+**supplies**
