@@ -37,7 +37,7 @@ A-Clean is a Django project for the management of a cleaning business.
 - task_id (int), job_id (int), task_description (text), area (text), assigned_to (int)
 - note: assigned_to references worker_id
 
-**job_teams**
+**job_teams** (not needed, resolved using many-to-many field)
 - job_id (int), worker_id (int), wage (float)
 
 **supplies** (?)
