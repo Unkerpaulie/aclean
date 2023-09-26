@@ -4,3 +4,6 @@ from django.shortcuts import render
 def index(req):
     context = {}
     return render(req, "main/index.html", context)
+
+def login(req):
+    pass
