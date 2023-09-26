@@ -107,3 +107,11 @@ A-Clean is a Django project for the management of a cleaning business.
 **workers**
 
 **supplies**
+
+### Primary colors
+
+#FDB174 yellow
+
+#572168 purple
+
+#5A9DFF light blue
