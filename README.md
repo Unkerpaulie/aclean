@@ -2,6 +2,10 @@
 
 A-Clean is a Django project for the management of a cleaning business.
 
+### Business operation
+
+When a new client is acquired, the first thing needed is to take the basic client information. For that client, we would then get the job information (a client can request multiple jobs). Each job will usually begin with a walkthrough where pictures, videos and notes of what needs to be done. The job record also entails the job description, estimated time (in days), which workers will do the job, and details like cost of supplies or equipment required. Once all he details and info is entered, a proposal entailing the scope of work, and an estimate and agreement form will be generated. Once everything is agreed upon, a start and end date is set, and the job is done. The client is invoiced, payment is received, and the transaction is complete. The system then allows for adding reviews for the job and workers. Anything that can be done to make the job more efficient or how we can expand the capacity of the business.
+
 ### Main project features
 
 - deployed and hosted online as a web app
